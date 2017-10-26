@@ -211,6 +211,7 @@ config("sdk_link") {
     ldflags = [ "/MACHINE:X64" ]
     lib_dirs = [
       "$windows_sdk_path\Lib\winv6.3\um\x64",
+      "$windows_sdk_path\Lib\10.0.14393.0\um\x64",
       "$visual_studio_path\VC\lib\amd64",
       "$visual_studio_path\VC\atlmfc\lib\amd64",
     ]
@@ -222,6 +223,7 @@ config("sdk_link") {
     ]
     lib_dirs = [
       "$windows_sdk_path\Lib\winv6.3\um\x86",
+      "$windows_sdk_path\Lib\10.0.14393.0\um\x86",
       "$visual_studio_path\VC\lib",
       "$visual_studio_path\VC\atlmfc\lib",
     ]
