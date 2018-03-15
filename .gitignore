@@ -18,3 +18,4 @@
 /ios_files
 /mac_files
 
+*.pyc
